@@ -1,0 +1,568 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#landing {
+    background-image: url(../img/Yoga-Plank-Poses.jpg);
+    height: 70%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.navbar {
+    min-height: 100px;
+}
+
+.navbar li a {
+    padding-top: 40px;
+}
+
+
+.black-box {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 130px;
+    margin-top: 65%;
+}
+
+.col-md-offset-8 {
+    margin-left: 5%;
+}
+
+h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 55%;
+    text-shadow: 1px 1px 12px black;
+}
+
+.para1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 35px 50px;
+}
+
+a.button1 {
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    float: left;
+    text-shadow: 1px 1px 12px black;
+    margin-left: 750px;
+}
+
+a.button1:hover {
+    background-color: #34889D;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+/*About Section*/
+
+#about {
+    width: 960px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#about .photo {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 100px;
+    float: left;
+}
+
+.photo {
+    background-image: url(/img/RowHouse_Final-Icon.png);
+}
+
+#about .photo img {
+    margin-top: 0;
+}
+
+.about-paragraph {
+    height: 100px;
+    width: 600px;
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-top: 73px;
+    margin-left: 25px;
+    float: left;
+    text-align: left;
+}
+
+.col-md-offset-4 {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.alison {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    float: left;
+}
+
+.alison-paragraph {
+    height: 100px;
+    width: 650px;
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    text-align: left;
+}
+
+.danny {
+    max-width: 350px;
+    max-height: 350px;
+    margin-top: 100px;
+    float: left;
+}
+
+.danny-paragraph {
+    height: 100px;
+    width: 650px;
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-left: 50px;;
+    margin-top: 150px;
+    float: left;
+    text-align: left;
+}
+
+.magen {
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    float: left;
+}
+
+.magen-paragraph {
+    height: 100px;
+    width: 650px;
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-left: 50px;
+    margin-top: 150px;
+    float: left;
+    text-align: left;
+} 
+
+#description {
+    margin-top: 230px;
+    font-size: 30px;
+}
+
+.rectangle-header {
+    text-align: center;
+    border-bottom: 2px solid #e4e4e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.class-info {
+    padding-top: 20px;
+    color: #545454;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.rowing img {
+    border-radius: 50%;
+    padding: 31.25px;
+    margin-left: 12%;
+    height: 200px;
+    width: auto;
+}
+
+.rates-header h3 {
+    color: #2a2a2a;
+    font-size: 35px;
+    clear: both;
+}
+
+.rates-left {
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+.rates-right {
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+#discounts,
+#special-offers {
+    font-weight: 700;
+}
+
+a.button2 {
+    width: 140px;
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 16px;
+    border: 1px solid #2a2a2a;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a.button2:hover {
+    background-color: #34889D;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.col-md-offset-5 {
+    margin-left: 0;
+}
+
+#rates {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#h2-coaches {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 1%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+#h2-classes {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 10%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+#h2-rates {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 3%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+#h2-contact {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 10%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.well-sm, #map  {
+    margin-top: 0px;
+}
+
+#map iframe {
+    width: 50%;
+    height: 360px;
+}
+
+
+
+
+/* --------------------- IPAD CSS --------------------- */
+
+@media screen and (max-width: 1024px) {
+    
+    .navbar-default .navbar-toggle:hover {
+        padding-top:40px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 70%;
+    }
+    .black-box {
+        background-color: rgba(0, 0, 0, 0.65);
+        height: 90px;
+        width: 80%;
+        margin-top: 85%;
+        margin-left: 15%;
+    }
+    .para1 {
+        font-size: 20px;
+        padding: 10px 8px;
+    }
+    a.button1 {
+        width: 140px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+        float: left;
+        text-shadow: 1px 1px 12px black;
+        margin-left: 165%;
+    }
+    #about .photo {
+        display: none;
+    }
+    .about-paragraph {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 17%;
+    }
+    #about {
+        margin-bottom: 0;
+        
+        
+    }
+    /*
+    #coaches .alison {
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+} */
+    
+    .alison, .danny, .magen {
+        max-height: 250px;
+        max-width: 250px;
+    }
+    
+    .danny, .magen {
+    margin-top: 50px;
+    }
+    
+    .alison-paragraph {
+        width: 500px;
+        font-size: 12px;
+        color: #a8a8a8;
+        margin-left: 100px;
+        margin-top: 25px;
+        float: left;
+        text-align: left;
+    }
+    .danny-paragraph {
+        height: 100px;
+        width: 500px;
+        font-size: 12px;
+        color: #a8a8a8;
+        margin-left: 100px;
+        margin-top: 65px;
+        float: left;
+        text-align: left;
+    }
+    .magen-paragraph {
+        height: 100px;
+        width: 500px;
+        font-size: 12px;
+        color: #a8a8a8;
+        margin-left: 100px;
+        margin-top: 75px;
+        float: left;
+        text-align: left;
+    }
+    
+    .rowing img {
+    border-radius: 50%;
+    padding: 31.25px;
+    margin-left: 5%;
+}
+    #map iframe {
+    width: 50%;
+    height: 360px;
+}
+ #h2-coaches {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: -5%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+#h2-classes {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 10%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+#h2-rates {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 3%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+#h2-contact {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 10%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+    #row-left {
+    margin-left: 0px;
+}
+}
+
+/*phone css*/
+
+@media (max-width:640px) and (min-width:321px) {
+    
+     h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50%;
+    }
+    .black-box {
+        background-color: rgba(0, 0, 0, 0.65);
+        height: 70px;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .para1 {
+        font-size: 18px;
+        padding: 10px 8px;
+    }
+    a.button1 {
+        width: 140px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        float: left;
+        text-shadow: 1px 1px 12px black;
+        margin-left: 30%;
+    }
+    
+.about-paragraph {
+        text-align: center;
+        font-size: 12px;
+        margin-left: 5%;
+    width: 500px;
+    }
+    
+    .alison, .danny, .magen {
+        height: 150px;
+        width: 150px;
+        margin-left: 38%;
+        /*display: none;*/
+    }
+    
+    .alison {
+        margin-bottom: 10px;
+    }
+    
+    .danny {
+    margin-top: 150px;
+    }
+    
+    .magen {
+        margin-top: 150px;
+    }
+    
+    .alison-paragraph {
+        width: 500px;
+        font-size: 12px;
+        color: #a8a8a8;
+        margin-left: 55px;
+        margin-top: 5px;
+        float: left;
+        text-align: center;
+    }
+    .danny-paragraph {
+        height: 100px;
+        width: 500px;
+        font-size: 12px;
+        color: #a8a8a8;
+        margin-left: 55px;
+        margin-top: 15px;
+        float: left;
+        text-align: center;
+    }
+    .magen-paragraph {
+        height: 100px;
+        width: 500px;
+        font-size: 12px;
+        color: #a8a8a8;
+        margin-left: 55px;
+        margin-top: 15px;
+        float: left;
+        text-align: center;
+    }
+    
+     #h2-coaches {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 0%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+    
+    #h2-classes {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 25%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+    .rowing img {
+    border-radius: 50%;
+    padding: 31.25px;
+    margin-left: 33%;
+    height: 200px;
+    width: auto;
+}
+    
+    #row-left {
+    margin-left: 0px;
+}
+    
+        #map iframe {
+    width: 100%;
+    height: 360px;
+}
+    
+    
+} 
